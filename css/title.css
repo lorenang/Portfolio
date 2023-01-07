@@ -1,0 +1,43 @@
+.title__div {
+    gap: 32px;
+}
+.title__container {
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title__network {
+    gap: 32px;
+}
+.title__network__item {
+    gap: 32px;
+}
+
+.title__profile {
+    width: 370px;
+    height: 370px;
+    background: url(.jpg);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+
+
+/*Mobile*/
+@media (max-width: 450px) {
+    .title__div {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .title__profile {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+
+
+

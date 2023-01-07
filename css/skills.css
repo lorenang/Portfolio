@@ -1,0 +1,49 @@
+.skills, .hobbies, .academic {
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.skills__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+    /* Inside auto layout */
+
+}
+.skills__line, .hobbies__line {
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__box, .hobbies__box {
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 100px;
+    height: 100px;
+    background: var(--color-de-back);
+    /* Inside auto layout */
+}
+
+.__img {
+    width: 40px;
+    height: 40px;
+}
+
+/*Mobile*/
+@media (max-width: 450px) {
+    .skills__line {
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+        gap: 32px;
+    }
+}

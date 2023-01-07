@@ -1,0 +1,105 @@
+.tudo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu {
+    display: flex;
+}
+.menu__header {
+    display: flex;
+}
+.menu__list {
+    display: flex;
+}
+
+
+.title__div {
+    display: flex;
+    width: 100%;
+}
+.title__container {
+    display: flex;
+    flex-direction: column;
+}
+.title__network {
+    display: flex;
+}
+
+
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.skills, .hobbies {
+    display: flex;
+    flex-direction: column;
+}
+.skills__line, .hobbies__line {
+    display: flex;
+}
+.skills__box, .hobbies__box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.academic {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+.academic__courses__box {
+    display: flex;
+    flex-direction: column;
+}
+.academic__courses__item__img, .academic__courses__item__title, .academic__courses__item__subtitle {
+    display: inline;
+}
+
+
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+.experiencie__box {
+    display: flex;
+}
+.experience__description{
+    display: flex;
+}
+
+.formcontato__contacto {
+    display: flex;
+    flex-direction: row;
+
+}
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__rodape {
+    display: flex;
+}

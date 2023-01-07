@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--color-de-back);
+    padding: 30px;
+
+}
+
+.footer__rodape {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    bottom: 0;
+    color: #F3F5FC;
+}
+
+.footer__rodape a {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  
+.footer__rodape a:hover {
+    background-color: #ffffff;
+    color: black;
+}
