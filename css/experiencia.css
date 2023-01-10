@@ -141,6 +141,17 @@
     color: #aaaaaa;
 }
 
+#slide-1-0:checked ~ .control-1-0,
+#slide-2-0:checked ~ .control-2-0,
+#slide-3-0:checked ~ .control-3-0,
+#slide-4-0:checked ~ .control-4-0,
+#slide-5-0:checked ~ .control-5-0,
+#slide-6-0:checked ~ .control-6-0,
+#slide-7-0:checked ~ .control-7-0,
+#slide-8-0:checked ~ .control-8-0,
+#slide-9-0:checked ~ .control-9-0 {
+    display: block;
+}
 #slide-1-1:checked ~ .control-1-1,
 #slide-2-1:checked ~ .control-2-1,
 #slide-3-1:checked ~ .control-3-1 {
@@ -180,16 +191,33 @@
     color: #aaaaaa;
 }
 
+
+#slide-1-0:checked ~ .control-1-0 ~ .slide-indicador li:nth-child(1) .slide-circulo,
+#slide-2-0:checked ~ .control-2-0 ~ .slide-indicador li:nth-child(2) .slide-circulo,
+#slide-3-0:checked ~ .control-3-0 ~ .slide-indicador li:nth-child(3) .slide-circulo,
+#slide-4-0:checked ~ .control-4-0 ~ .slide-indicador li:nth-child(4) .slide-circulo,
+#slide-5-0:checked ~ .control-5-0 ~ .slide-indicador li:nth-child(5) .slide-circulo,
+#slide-6-0:checked ~ .control-6-0 ~ .slide-indicador li:nth-child(6) .slide-circulo,
+#slide-7-0:checked ~ .control-7-0 ~ .slide-indicador li:nth-child(7) .slide-circulo,
+#slide-8-0:checked ~ .control-8-0 ~ .slide-indicador li:nth-child(8) .slide-circulo,
+#slide-9-0:checked ~ .control-9-0 ~ .slide-indicador li:nth-child(9) .slide-circulo,
+#slide-10-0:checked ~ .control-10-0 ~ .slide-indicador li:nth-child(10) .slide-circulo,
+#slide-11-0:checked ~ .control-11-0 ~ .slide-indicador li:nth-child(11) .slide-circulo,
+#slide-12-0:checked ~ .control-12-0 ~ .slide-indicador li:nth-child(12) .slide-circulo,
+#slide-13-0:checked ~ .control-13-0 ~ .slide-indicador li:nth-child(13) .slide-circulo,
+#slide-14-0:checked ~ .control-14-0 ~ .slide-indicador li:nth-child(14) .slide-circulo,
+#slide-15-0:checked ~ .control-15-0 ~ .slide-indicador li:nth-child(15) .slide-circulo,
+#slide-16-0:checked ~ .control-16-0 ~ .slide-indicador li:nth-child(16) .slide-circulo {
+    color: #428bca;
+}
 #slide-1-1:checked ~ .control-1-1 ~ .slide-indicador li:nth-child(1) .slide-circulo,
 #slide-2-1:checked ~ .control-2-1 ~ .slide-indicador li:nth-child(2) .slide-circulo,
-#slide-3-1:checked ~ .control-3-1 ~ .slide-indicador 
-      li:nth-child(3) .slide-circulo {
+#slide-3-1:checked ~ .control-3-1 ~ .slide-indicador li:nth-child(3) .slide-circulo {
     color: #428bca;
 }
 #slide-1-2:checked ~ .control-1-2 ~ .slide-indicador li:nth-child(1) .slide-circulo,
 #slide-2-2:checked ~ .control-2-2 ~ .slide-indicador li:nth-child(2) .slide-circulo,
-#slide-3-2:checked ~ .control-3-2 ~ .slide-indicador 
-      li:nth-child(3) .slide-circulo {
+#slide-3-2:checked ~ .control-3-2 ~ .slide-indicador li:nth-child(3) .slide-circulo {
     color: #428bca;
 }
 
