@@ -1,13 +1,15 @@
 .formcontato__contacto {
     justify-content: center;
-    gap: 32px;
+    gap: 10px;
     align-items: center;
 
 }
-
-.formcontato__form {
-    gap: 32px;
+.formcontato__boxes {
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
 }
+
 
 .formcontato__text {
     align-items: flex-start;
@@ -25,43 +27,40 @@
 .formcontato__subtext {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 19px;
 }
 
-.formcontato__form {
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-}
 
-.formcontato__input {
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    width: 600px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 4px;
-}
-
-.formcontato__textarea {
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    width: 600px;
-    height: 120px;
-}
-.formcontato__botao {
-
-    justify-content: center;
+.icon__box {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin: 5px;
+    text-align: center;
     align-items: center;
-    padding: 16px;
-    gap: 10px;
-
-    width: 144px;
-    height: 51px;
-    color: var( --color-de-letra);
-    background: var(--color-de-boton);
-    border-radius: 10px;
+  }
+  
+.icon__box:hover {
+    background-color: #ffffff;
+    color: black;
 }
+.link__box {
+    color: #ffffff;
+    line-height: 36px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+  }

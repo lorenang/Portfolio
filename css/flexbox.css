@@ -84,20 +84,21 @@
 
 .formcontato__contacto {
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
 }
+
 .formcontato__text {
     display: flex;
     flex-direction: column;
 }
-.formcontato__form {
+
+.formcontato__boxes {
     display: flex;
     flex-direction: column;
 }
-.formcontato__input {
+.contac__box {
     display: flex;
-    flex-direction: column;
+
 }
 
 .footer__rodape {
