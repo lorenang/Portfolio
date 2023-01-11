@@ -7,7 +7,7 @@
 .formcontato__boxes {
     justify-content: center;
     gap: 5px;
-    align-items: center;
+    margin-left: 40px;
 }
 
 
