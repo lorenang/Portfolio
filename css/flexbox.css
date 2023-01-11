@@ -51,7 +51,6 @@
 
 
 
-
 .academic {
     display: flex;
     flex-direction: column;
@@ -59,16 +58,22 @@
 }
 .academic__courses {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
+
 .academic__courses__box {
     display: flex;
     flex-direction: column;
 }
-.academic__courses__item__img, .academic__courses__item__title, .academic__courses__item__subtitle {
-    display: inline;
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
 }
-
+.info__box {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .experience {
