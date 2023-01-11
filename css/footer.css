@@ -1,16 +1,17 @@
 .footer {
     background-color: var(--color-de-back);
-    padding: 30px;
-
 }
 
 .footer__rodape {
     align-items: center;
     text-align: center;
     justify-content: center;
-
     bottom: 0;
     color: #F3F5FC;
+}
+.footer__rodape h1 {
+    font-size: 20px;
+    padding: 10px;
 }
 
 .footer__rodape a {

@@ -108,4 +108,10 @@
 
 .footer__rodape {
     display: flex;
+    flex-direction: column;
+}
+
+.footer__box {
+    display: flex;
+    flex-wrap: wrap;
 }
